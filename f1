@@ -1,28 +1,10 @@
-mgmt_ip : 10.0.0.2
+mgmt_ip : 10.0.0.11
 vlans:
 red:
 id: 10
 blue:
 id: 20
 ports
-1: [10,20]
+1: [10]
 2: [20]
-3: [10,20]
-mgmt_ip : 10.0.0.1
-vlans:
-red:
-id: 10
-blue:
-id: 20
-green:
-id: 30
-ports
-1: [30]
-2: [20]
-Nouveau fichier 3: [10,20] s2
-fichier s1 modifié
-32
-▪ Second Commit
-▪ LES CONCEPTS FONDAMENTAUX DU GIT
-▪ LE CONTRÔLE DES VERSIONS : GIT & 
-GITHU
+3: [10.20]
